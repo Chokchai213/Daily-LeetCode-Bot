@@ -7,7 +7,8 @@
     "node-html-to-image": "^4.0.0"
   },
   "scripts": {
-    "dev": "nodemon --env-file=.env bot.js",
-    "start": "node --env-file=.env bot.js"
+    "dev": "nodemon --env-file=.env bot.js;",
+    "start": "node --env-file=.env bot.js",
+    "register": "node --env-file=.env deploy-command.js"
   }
 }
